@@ -1,0 +1,15 @@
+-
+  name: 购物车接口请求
+  method: GET
+  url: /mall/product/shoppingCart
+#
+#  token:
+#  Authorization: ${read_data_yaml(token)}
+#  Authorization: ${read_data_yaml(token)}
+  time: ${get_time()}
+  headers:
+    Content-type: application/x-www-form-urlencoded
+    Authorization: ${read_data_yaml(token)}
+  extract:
+    message: '"message":"(.+?)"'
+#  aver:

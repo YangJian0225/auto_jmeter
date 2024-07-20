@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 17 00:46:54 CST 2024","Wed Jul 17 00:46:54 CST 2024","412","testcase.login","test_login","TestLogin","","","test_aaa[result0]",""
+"passed","Mon Jul 08 21:41:49 CST 2024","Mon Jul 08 21:41:49 CST 2024","237","testcase.carts","test_carts","TestCarts","","","test_carts2[result0]",""
+"passed","Wed Jul 17 00:46:53 CST 2024","Wed Jul 17 00:46:53 CST 2024","250","testcase.carts","test_carts","TestCarts","","","test_carts2[result0]",""
+"passed","Wed Jul 17 00:46:53 CST 2024","Wed Jul 17 00:46:54 CST 2024","223","testcase.login","test_login","TestLogin","","","test_logins[result0]",""

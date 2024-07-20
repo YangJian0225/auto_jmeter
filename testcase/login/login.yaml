@@ -1,0 +1,25 @@
+-
+  name: 登录接口请求
+  method: POST
+#  Content-Type: application/json
+  json:
+    clientId: 0
+    phone: 16688888888
+    systemId: 0
+    verificationCode: 1111
+  url: /uc/user/login
+  headers:
+    Content-Type: application/json
+  aver:
+
+#-
+#  name: 登录接口请求
+#  method: post
+#  data:
+#    clientId: 0
+#    phone: 16688888888
+#    systemId: 0
+#    verificationCode: 1111
+#  url: https://you-gateway.mashibing.com/uc/user/login
+#  headers:
+#  aver:
