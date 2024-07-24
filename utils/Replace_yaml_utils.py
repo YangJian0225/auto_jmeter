@@ -28,6 +28,7 @@ class ReplaceUtils:
         :return:
         """
         str_data = json.dumps(filepath, ensure_ascii=False)
+        print(type(str_data))
         for i in range(str_data.count("${")):
             #     # 取头尾数据
             str_data_start = str_data.index("$")
@@ -101,4 +102,4 @@ if __name__ == '__main__':
     # ReplaceUtils.replace_yaml_data(filepath=firsrdata)
     data = file_paths["carts_yaml"]
     replace = ReplaceUtils()
-    replace.replace_yaml_by_extract(yaml_path=data, replace_value="traceId")
+    replace.replace_yaml_data(filepath=data)
